@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+     <title>buy - online shop</title>
+     <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+     <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+     
+     <header class="header">
+          <a class="logolink" href="../index.html">
+               <img class="logo" src="../images/logo.svg" alt="logo">
+          </a>
+
+          <nav class="nav">
+               <ul class="navbar">
+                    <li><a class="" href="../index.html">home</a></li>
+                    <li><a class="" href="./todo.html">toDo app</a></li>
+                    <li><a class="" href="./quotes.html">quotes</a></li>
+                    <li><a href="./blog.html">blog</a></li>
+                    <li><a href="./contact.html">contact</a></li>
+                    <li><a class="" href="./faq.html">FAQ</a></li>
+                    <!-- <li class="mobile-hide"><a class="cart"><i class='bx bx-shopping-bag' ></i></a></li> -->
+                    <a href="#" class="close">
+                         <i class="fa-solid fa-xmark"></i>
+                    </a>
+               </ul>
+          </nav>
+          <div class="mobile">
+               <!-- <a class="cart"><i class='bx bx-shopping-bag' ></i></a> -->
+               <i id="bar" class="fa-solid fa-grip-lines"></i>
+          </div>
+     </header>
+
+     
+     <section class="login">
+          <form class="loginform form" action="">
+               <h1>sign in</h1>
+               <div class="errormesagesLogin"></div>
+               <div class="form-item">
+                    <label for="username">username</label>
+                    <div class="input-cont">
+                         <i class='bx bx-user'></i>
+                         <input type="text" name="username" id="loginUsername" placeholder="username">
+                    </div>
+               </div>
+               <div class="form-item">
+                    <label for="password">password</label>
+                    <div class="input-cont">
+                         <i class='bx bx-lock-alt' ></i>
+                         <input type="password" name="password" id="password" placeholder="password">
+                         <span class="show-hide-password">show</span>
+                    </div>
+               </div>
+               <div class="form-item form-checkbox-item">
+                    <input type="checkbox" name="saveme" id="saveme">
+                    <label class="saveme" for="saveme">save me</label> 
+               </div>
+               <button class="signBtn" id="signInBtn" type="submit">sign in</button>
+
+               <p class="form-text">don't have an acount? <span class="form-text-link registerlink">sign up</span> </p>
+               <p class="deletedata">remove user saved data(localStorage)?<span class="removeData">remove</span></p>
+          </form>
+
+          <form class="registerform form" action="">
+               <h1>sign up</h1>
+               
+               <div class="errormesages"></div>
+
+               <div class="form-item">
+                    <label for="name">name</label>
+                    <div class="input-cont">
+                         <input type="text" name="name" id="name" placeholder="name">
+                    </div>
+               </div>
+               <div class="form-item">
+                    <label for="lastname">last name</label>
+                    <div class="input-cont">
+                         <input type="text" name="lastname" id="lastname" placeholder="last name">
+                    </div>
+               </div>
+               <div class="form-item">
+                    <label for="username">username</label>
+                    <div class="input-cont">
+                         <i class='bx bx-user'></i>
+                         <input type="text" name="username" id="registerUsername" placeholder="username">
+                    </div>
+               </div>
+               <div class="form-item">
+                    <label for="email">email</label>
+                    <div class="input-cont">
+                         <i class='bx bx-envelope' ></i>
+                         <input type="text" name="email" id="email" placeholder="email">
+                    </div>
+               </div>
+               <div class="form-item">
+                    <label for="password">password</label>
+                    <div class="input-cont">
+                         <i class='bx bx-lock-alt' ></i>
+                         <input type="password" name="password" id="regpassword" placeholder="password">
+                         <span class="show-hide-password">show</span>
+                    </div>
+               </div>
+               <button class="signBtn" id="signUpBtn" type="submit">sign up</button>
+               <p class="form-text">do you have an acount? <span class="form-text-link loginlink">sign in</span> </p>
+          </form>
+     </section>
+    
+
+     <section class="newsletter">
+          <div class="newstext">
+               <h2>sign up for newsletters</h2>
+               <h4>get E-mail updates about our shop and <span>special offers.</span></h4>
+          </div>
+          <div class="newsletter-form">
+               <input type="text" name="" id="newsletter-input" placeholder="yor email adress">
+               <button type="submit">sign up</button>
+          </div>
+     </section>
+     <footer>
+          <div class="col">
+               <img class="logo" src="../images/logo.svg" alt="">
+               <h4>contact</h4>
+               <p><b>adress: </b>wellington road, street 20, san francisco</p>
+               <p><b>phone: </b>+9423523523/+4346243435</p>
+               <p><b>hours: </b>10:00 - 18:00, mon-sat</p>
+               <div class="follow">
+                    <h4>follow us</h4>
+                    <div class="icon">
+                         <a href="#">
+                              <i class='bx bxl-facebook' ></i>
+                         </a>
+                         <a href="#">
+                              <i class='bx bxl-twitter' ></i>
+                         </a>
+                         <a href="#">
+                              <i class='bx bxl-instagram' ></i>
+                         </a>
+                         <a href="#">
+                              <i class='bx bxl-pinterest-alt' ></i>
+                         </a>
+                    </div>
+               </div>
+          </div>
+
+          <div class="col">
+               <h4>about</h4>
+               <a href="#">about us</a>
+               <a href="#">delivery information</a>
+               <a href="#">terms & conditions</a>
+               <a href="#">contact us</a>
+          </div>
+
+          <div class="col">
+               <h4>my account</h4>
+               <a href="./user.html">sign in</a>
+               <a href="#">view cart</a>
+               <a href="#">track my order</a>
+               <a href="#">help</a>
+          </div>
+
+          <div class="col install">
+               <h4>install app</h4>
+               <p>from app store or play store</p>
+               <div class="row">
+                    <a href="#">
+                         <img src="../images/applestore.png" alt="">
+                    </a>
+                    <a href="#">
+                         <img src="../images/googleplay.png" alt="">
+                    </a>
+               </div>
+               <p>secured playment  gateways</p>
+               <img class="pay" src="../images/paycard.png" alt="">
+          </div>
+
+          <div class="copyright">
+               <p>2022, copyright. all rights reserved.</p>
+          </div>
+     </footer>
+
+
+     <div class="scrollToTop">
+          <i class="fa-solid fa-chevron-up"></i>
+     </div>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <script src="../js/jquery-3.6.1.min.js"></script>
+     <script src="../js/main.js"></script>
+     <script src="../js/user.js"></script>
+</body>
+</html>

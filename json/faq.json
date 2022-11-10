@@ -1,0 +1,47 @@
+[
+     {
+          "id":1,
+          "title":" How can I order ",
+          "body":"You can order easily using our online platform. When you find a product you need, you can add it to cart, login and go through the ordering process. After the order is ready, you will receive order summary to your email. Order summary will also be stored to your account."
+     },
+     {
+          "id":2,
+          "title":"What payment methods can I use?",
+          "body":"You can use all the major credit cards."
+     },
+     {
+          "id":3,
+          "title":"Can I cancel my order?",
+          "body":"If you want to cancel your order, please do so as soon as possible. If we have already processed your order, you need to contact us and return the product. "
+     },
+     {
+          "id":4,
+          "title":"Do you have the product in stock?",
+          "body":"All the products which are shown on our site are available. Order lead time depends on the products and quantities."
+     },
+     {
+          "id":5,
+          "title":"How to contact customer service?",
+          "body":"If you have question regarding our online store (ordering, account questions, technical questions), please contact email."
+     },
+     {
+          "id":6,
+          "title":"Can I return a product?",
+          "body":"If you want to return a product, please contact email"
+     },
+     {
+          "id":7,
+          "title":"Security",
+          "body":"Our web store is secured with SSL certificate. This means the information you input is encrypted and it will not be available for third parties."
+     },
+     {
+          "id":8,
+          "title":"Shipping cost?",
+          "body":"Shipping costs are dependent on your location and products on your order. Some products need to be shipped in dry ice. These dry ice shipments have a slightly higher shipping fee. Our online store shows the shipping fee and shipping cost automatically on the checkout. "
+     },
+     {
+          "id":9,
+          "title":"Shipping time?",
+          "body":"Shipping time will be confirmed on the order confirmation document. "
+     }
+]
